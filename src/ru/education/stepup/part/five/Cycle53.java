@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 public class Cycle53 {
     public static void main(String[] args) {
     System.out.println(chet(9));

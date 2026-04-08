@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 public class Cycle55 {
     public static void main(String[] args) {
         System.out.println(numLen(1234567890));

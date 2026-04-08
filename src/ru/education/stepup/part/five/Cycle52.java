@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 public class Cycle52 {
     public static void main(String[] args) {
         System.out.println(reverseListNums(5));

@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 public class Cycle54 {
     public static void main(String[] args) {
         System.out.println(pow(2, 5));
