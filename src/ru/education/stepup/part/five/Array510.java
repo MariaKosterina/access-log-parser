@@ -1,19 +1,21 @@
+package ru.education.stepup.part.five;
+
 import java.util.Arrays;
 
-public class Array59 {
+public class Array510 {
     public static void main(String[] args) {
-        int[] arr={1,2,3,8,2,2,9};
-        System.out.println(Arrays.toString(findAll(arr, 2)));
+        int[] arr={1,2,-3,4,-2,2,-5};
+        System.out.println(Arrays.toString(deleteNegative(arr)));
     }
-    public static int[] findAll(int[] arr, int x){
+    public static int[] deleteNegative(int[] arr){
         int countInsert=0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i]==x) countInsert++;
+            if (arr[i]>=0) countInsert++;
         }
         int[] arr1 = new int[countInsert];
         int j = 0;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i]==x) arr1[j++]=i;
+            if (arr[i]>=0) arr1[j++]=arr[i];
         }
         return arr1;
     }

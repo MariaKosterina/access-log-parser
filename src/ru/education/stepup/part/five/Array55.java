@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 public class Array55 {
     public static void main(String[] args) {
         int[] arr={1,-2,-7,4,-7,-2,1};

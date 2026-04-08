@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 import java.util.Arrays;
 
 public class Array58 {

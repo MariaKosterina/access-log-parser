@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 public class Cycle57 {
     public static void main(String[] args) {
         square(2);

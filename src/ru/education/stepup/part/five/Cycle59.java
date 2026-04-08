@@ -1,4 +1,6 @@
-public class Cycle58 {
+package ru.education.stepup.part.five;
+
+public class Cycle59 {
     public static void main(String[] args) {
         leftTriangle(2);
         System.out.println("----------");
@@ -8,6 +10,7 @@ public class Cycle58 {
     }
     public static void leftTriangle(int x){
         for (int i = x; i > 0; i--) {
+            System.out.print(" ".repeat(i-1));
             for (int j = x; j >= i; j--) {
                 System.out.print("*");
             }

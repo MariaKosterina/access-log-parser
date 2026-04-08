@@ -1,3 +1,5 @@
+package ru.education.stepup.part.five;
+
 public class Cycle51 {
     public static void main(String[] args) {
         System.out.println(listNums(5));

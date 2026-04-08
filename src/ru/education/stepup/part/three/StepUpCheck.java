@@ -1,3 +1,5 @@
+package ru.education.stepup.part.three;
+
 public class StepUpCheck {
     public static void main(String[] args) {
         //Для задания 12

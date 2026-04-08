@@ -1,3 +1,5 @@
+package ru.education.stepup.part.three;
+
 public class StepUp {
     public static int counter = 0;
     public static int summ = 5; //Инициировала переменную сразу с присвоением ей первого числа для сложения
